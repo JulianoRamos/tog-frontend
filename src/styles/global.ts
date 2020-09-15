@@ -14,9 +14,14 @@ export default createGlobalStyle`
     -webkit-font-smoothing: antialiased;
   }
 
-  body, input, button {
+  body, button {
     font-family: 'Futura', 'Roboto';
     font-size: 16px;
+  }
+
+  input {
+    font-family: 'Futura', 'Roboto';
+    font-size: 14px;
   }
 
   h1, h2, h3, h4, h5, h6, strong {
